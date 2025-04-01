@@ -10,7 +10,7 @@ C = 1
 
 exy = [A, B, C]
 
-pover = len(upgrade_range(*exy))
+pover = len(upgrade_range(*exy)) ** 2
 
 
 
@@ -29,7 +29,7 @@ Zn = np.array(Zn)
 x = Zn.real
 y = Zn.imag
 
-plt.plot(x, y, )
+plt.plot(x, y, "g*")
 
 plt.ylabel('Imaginary')
 plt.xlabel('Real')
