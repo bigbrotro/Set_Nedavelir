@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from Sqveriki import Comp, upgrade_range
 
-A = 0
-B = 20
-C = 1
+A = -1  #Начальное значение x и y
+B = 1  #Конечное значение x и y
+C = 0.1 #Шаг цикла 
 
 
 
