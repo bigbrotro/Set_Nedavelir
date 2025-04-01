@@ -2,5 +2,5 @@
 
 Библиотеки, которые понадобятся; Libraries that will be needed
 
-pip install numpy \n
+pip install numpy                
 pip instal matplotlib
